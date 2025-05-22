@@ -1,0 +1,17 @@
+.proContainer{
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projectAbout{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 30vw;
+}
