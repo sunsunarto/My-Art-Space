@@ -1,17 +1,51 @@
-.proContainer{
-    max-width: 1720px;
+.projectCon {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+.projectCon h1 {
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 2vw;
+}
+
+.proContainer {
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4vw;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.projectAbout{
+.projectAbout {
+    color: black;
     background-color: aquamarine;
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
-    width: 30vw;
+    width: 90vw;
+}
+
+.githubAndLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .projectCon {
+        max-width: 1720px;
+    }
+
+    .proContainer {
+        max-width: 1720px;
+    }
+
+    .projectAbout {
+        width: 30vw;
+    }
 }
