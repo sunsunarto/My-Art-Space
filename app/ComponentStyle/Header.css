@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.headerCon{
+
+    margin : 10px;
+    padding: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    list-style: none;
+}
+
+.right ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
