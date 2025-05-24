@@ -4,7 +4,7 @@ export default function RootLayout({}) {
   return (
     <html lang="en">
       <body>
-        <Home />
+        <Home/>
       </body>
     </html>
   );
