@@ -1,18 +1,23 @@
 @import "tailwindcss";
 
 .headerCon{
-    @media (min-width: 768px) {
+    @media (max-width: 720px) {
         margin: 20px;
         padding: 20px;
     }
 }
 
-.container{
+.containerHead{
+    padding: 20px;
     margin: 0 auto;
     max-width: 1920px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 720px) {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .right{
@@ -24,7 +29,4 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
-    @media (max-width: 767px) {
-        flex-direction: column;
-    }
 }

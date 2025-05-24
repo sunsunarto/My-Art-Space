@@ -5,37 +5,41 @@
     margin-bottom: 20px;
 }
 
-.container {
+.containerAbout {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .text h2 {
-    font-size: 5vw;
+    font-size: 40px;
     font-weight: bolder;
     margin-bottom: 2vw;
 }
 
 img {
-    width: 80vw;
+    width: 50vw;
     border-radius: 10px;
 }
 
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
+@media (max-width: 768px) {
+    .containerAbout {
+        flex-direction: column;
         justify-content: space-between;
+    }
+    .text{
+        text-align: center;
     }
 
     .text h2 {
-        font-size: 2.083vw;
+        font-size: 30px;
+        font-weight: bolder;
         margin-bottom: 0.521vw;
     }
 
     img {
-        width: 50vw;
+        width: 80vw;
         border-radius: 20px;
     }
 }

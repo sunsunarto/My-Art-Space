@@ -72,7 +72,7 @@ function Header() {
 
     return (
         <div className="headerCon" ref={headerRef}>
-            <div className="container">
+            <div className="containerHead">
                 <div className="left">
                     <h6>Sunaryo <span>Portfolio</span></h6>
                 </div>
